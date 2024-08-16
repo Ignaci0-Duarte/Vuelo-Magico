@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jaro:opsz@6..72&family=Ojuju:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.links,
+p {
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.titulo {
+  font-size: 7vh;
+  font-weight: bold;
+}
+.tituloG {
+  font-size: 10vh;
+  font-weight: bolder;
+}
+.subtitulo {
+  font-size: 6vh;
+}
+
+@media (max-width: 600px) {
+  .titulo {
+    font-size: 4vh;
+    font-weight: bold;
+  }
+  .tituloG {
+    font-size: 5vh;
+    font-weight: bolder;
+  }
+  .subtitulo {
+    font-size: 3vh;
+  }
+  .slogan {
+    font-size: 1.5vh;
+  }
+}
