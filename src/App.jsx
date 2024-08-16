@@ -5,6 +5,19 @@ import { Navbar, Container, Nav, Row, Col, Image } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import tela from "../public/tela2.jpeg";
+import foto1 from "../public/foto1.jpeg";
+import foto2 from "../public/foto2.jpeg";
+import foto3 from "../public/foto3.jpeg";
+import foto4 from "../public/foto4.jpeg";
+import foto5 from "../public/foto5.jpeg";
+import foto6 from "../public/foto6.jpeg";
+import foto7 from "../public/foto7.jpeg";
+import foto8 from "../public/foto8.jpeg";
+import foto9 from "../public/foto9.jpeg";
+import profe1 from "../public/profe1.jpeg";
+import profe2 from "../public/profe2.jpeg";
+import profe3 from "../public/profe3.jpeg";
 
 const App = () => {
   useEffect(() => {
@@ -77,7 +90,7 @@ const App = () => {
           </Col>
           <Col xs={6} className="p-0">
             <img
-              src="../public/tela2.jpeg"
+              src={tela}
               alt="Vuelo Mágico"
               style={{ objectFit: "cover" }}
               className="img-fluid w-100 h-100"
@@ -99,31 +112,31 @@ const App = () => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <img src="../public/foto1.jpeg" className="img-fluid w-100 h-40" />
+            <img src={foto1} className="img-fluid w-100 h-40" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="../public/foto2.jpeg" className="img-fluid w-100 h-40" />
+            <img src={foto2} className="img-fluid w-100 h-40" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="../public/foto3.jpeg" className="img-fluid w-100 h-40" />
+            <img src={foto3} className="img-fluid w-100 h-40" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="../public/foto4.jpeg" className="img-fluid w-100 h-40" />
+            <img src={foto4} className="img-fluid w-100 h-40" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="../public/foto5.jpeg" className="img-fluid w-100 h-40" />
+            <img src={foto5} className="img-fluid w-100 h-40" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="../public/foto6.jpeg" className="img-fluid w-100 h-40" />
+            <img src={foto6} className="img-fluid w-100 h-40" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="../public/foto7.jpeg" className="img-fluid w-100 h-40" />
+            <img src={foto7} className="img-fluid w-100 h-40" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="../public/foto8.jpeg" className="img-fluid w-100 h-40" />
+            <img src={foto8} className="img-fluid w-100 h-40" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="../public/foto9.jpeg" className="img-fluid w-100 h-40" />
+            <img src={foto9} className="img-fluid w-100 h-40" />
           </SwiperSlide>
         </Swiper>
 
@@ -134,7 +147,7 @@ const App = () => {
         <Row className="text-center">
           <Col xs={12} md={4} className="mb-4">
             <img
-              src={`../public/profe1.jpeg`}
+              src={profe1}
               alt={`Profesor`}
               className="rounded-circle"
               style={{ width: "250px", height: "250px" }}
@@ -156,7 +169,7 @@ const App = () => {
           </Col>
           <Col xs={12} md={4} className="mb-4">
             <img
-              src={`../public/profe2.jpeg`}
+              src={profe2}
               alt={`Profesor`}
               className="rounded-circle"
               style={{ width: "250px", height: "250px" }}
@@ -181,7 +194,7 @@ const App = () => {
           </Col>
           <Col xs={12} md={4} className="mb-4">
             <img
-              src={`../public/profe3.jpeg`}
+              src={profe3}
               alt={`Profesor`}
               className="rounded-circle"
               style={{ width: "250px", height: "250px" }}
