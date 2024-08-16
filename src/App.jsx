@@ -93,7 +93,7 @@ const App = () => {
               src={tela}
               alt="Vuelo Mágico"
               style={{ objectFit: "cover" }}
-              className="img-fluid w-100 h-100"
+              className="img-fluid img-tela"
             />
           </Col>
         </Row>

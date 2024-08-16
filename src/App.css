@@ -46,4 +46,7 @@ p {
   .slogan {
     font-size: 1.5vh;
   }
+  .img-tela {
+    height: 30vh !important;
+  }
 }
